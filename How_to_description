@@ -52,3 +52,7 @@ xfirst    = -180
 xinc      = 1
 yfirst    = -90
 yinc      = 1 
+
+
+change dimension of nc file, assuming the coords of data are all correct and shouldn't be touched:
+ncpdq -a time,longitude,-latitude -O CARDAMOM-MAPS_GC4x5_CMSNBEUNC_2010.nc CARDAMOM-MAPS_GC4x5_CMSNBEUNC_2010_swapped.nc  
